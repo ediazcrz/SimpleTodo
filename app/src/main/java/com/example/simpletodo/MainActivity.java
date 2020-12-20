@@ -12,6 +12,12 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+    List<String> items;
+
+    Button btnAdd;
+    EditText etItem;
+    RecyclerView rvItems;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
