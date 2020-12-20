@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         btnAdd = findViewById(R.id.btnAdd);
         etItem = findViewById(R.id.etItem);
         rvItems = findViewById(R.id.rvItems);
-        
+
         items = new ArrayList<>();
         items.add("Buy milk");
         items.add("Go to the gym");
